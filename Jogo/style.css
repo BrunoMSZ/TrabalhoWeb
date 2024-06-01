@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://www.betsson.com/wp-content/uploads/2021/04/df10ab05-ca2c-4056-b531-9b6ef6d8fd47-1170x780.jpg.optimal.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #34495e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.player, .dealer {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.player h2, .dealer h2 {
+    font-size: 24px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cards div {
+    width: 60px;
+    height: 90px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #2980b9;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
